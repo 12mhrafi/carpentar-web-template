@@ -1,0 +1,17 @@
+.navb{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:0;
+    z-index:400;
+    box-shadow: 5px 5px 2px rgba(213, 210, 210, 0.6);
+}
+.mobile-nav{
+    transform:translateX(-15rem);
+    transition: all 500ms ease-in;
+    position: fixed;
+  
+}
+.mobile-nav.active{
+    transform:translateX(0rem);
+}
