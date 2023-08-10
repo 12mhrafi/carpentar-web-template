@@ -41,7 +41,7 @@
 <body class = "sans-serif" >
    <header>
     <div class="top-bar bg-light">
-        <div class="container mx-auto ">
+        <div class="container mx-auto px-4">
             <div class = "hidden lg:block">
                 <div class="top-bar-row  flex justify-between h-12 items-center text-sm ">
                     <div class="left-items flex gap-5">
@@ -71,7 +71,7 @@
     </div>
     <!-- navbar -->
         <div class="navb bg-white lg-size lg:block hidden">
-            <div class="container mx-auto">
+            <div class="container mx-auto px-4">
                 <nav class = "flex justify-between items-center h-20">
                     <div class="logo">
                         <a class = "text-main text-4xl" href="#"> <span class = "uppercase">W</span>oo<span class = "uppercase">dy</span></a>
@@ -90,7 +90,7 @@
         </div>
         <!-- mobile  -->
         <div class="navb bg-white lg-size lg:hidden block">
-            <div class = "container mx-auto">
+            <div class = "container mx-auto px-4">
                 <nav class="flex justify-between  h-20 items-center">
                     <div class="logo">
                         <a class = "text-main text-4xl" href="#"> <span class = "uppercase">W</span>oo<span class = "uppercase">dy</span></a>
@@ -121,7 +121,7 @@
         <div class="carousel w-full ">
             <div id="item1" class="carousel-item relative w-full">
               <img src="./img/carousel-3.jpg"  class="opacity-70 w-full absolute " />
-                <div class="container mx-auto z-10 flex text-center items-center justify-center text-white flex-col px-4 w-full h">
+                <div class="container mx-auto px-4 z-10 flex text-center items-center justify-center text-white flex-col px-4 w-full h">
                     <div class = "flex flex-col gap-4 md:w-[70%] m-auto">
                         <h4>WELCOME TO WOODY</h4>
                         <h1 class ="text-white font-[700] text-4xl md:text-6xl">Best Carpenter & Craftssman Services</h1>
@@ -135,7 +135,7 @@
             </div> 
             <div id="item2" class="carousel-item w-full relative">
               <img src="./img/carousel-2.jpg" class="w-full absolute" />
-              <div class="container mx-auto z-10 flex text-center items-center justify-center text-white flex-col px-4 w-full h">
+              <div class="container mx-auto px-4 z-10 flex text-center items-center justify-center text-white flex-col w-full h">
                 <div class = "flex flex-col gap-4 md:w-[70%] m-auto">
                     <h4>WELCOME TO WOODY</h4>
                     <h1 class ="text-white font-[700] text-4xl md:text-6xl">Best Carpenter & Craftssman Services</h1>
@@ -176,9 +176,9 @@
    </header>
 
  <main>
-    <section>
-        <div class = "py-20">
-            <div class="container mx-auto p-4">
+    <section class = "mt-24">
+        <div>
+            <div class="container mx-auto px-4">
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-16">
                     <div>
                         <div class = "flex justify-between">
@@ -220,15 +220,15 @@
             </div>
         </div>
    </section>
-   <section>
+   <section class = "mt-24">
         <div class="about-us bg-light ">
-            <div class="container mx-auto">
+            <div class="container mx-auto px-4">
                 <div class="about-row grid grid-cols-1 md:grid-cols-2 gap-16 ">
                     <div>
                         <img src="./img/about.jpg" alt="no image found">
                     </div>
                     <div class = 'flex flex-col gap-8 justify-center'>
-                        <h2 class = "text-4xl font-[700]">About Us</h2>
+                        <h2 class = "text-6xl font-[700] h-a-title">About Us</h2>
                         <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
                         <div>
                             <div class = "grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -262,68 +262,68 @@
         </div>
    </section>
    <!-- our services -->
-   <section>
+   <section class = "mt-24">
         <div class="services">
-            <div class="container mx-auto">
-                <h2  class = "text-4xl font-[700] text-center" >Our Services</h2>
+            <div class="container mx-auto px-4">
+                <h2  class = "text-6xl font-[700] h-title text-center mb-12" >Our Services</h2>
                  <!-- our services row-->
                 <div class="services-row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
                     <!-- our services col-->
-                    <div class="services-col  border-4">
+                    <div class="services-col">
                         <div>
-                            <img src="./img/service-1.jpg" alt="no image found">
+                            <img  src="./img/service-1.jpg" alt="no image found">
                         </div>
-                        <div class = 'flex gap-3 flex-col text-center p-4'>
+                        <div class = 'flex gap-4 border-b-2 border-r-2 border-l-2 w-full flex-col text-center p-4'>
                             <h4 class = " text-2xl font-[700] ">Furniture Manufacturing</h4>
                             <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                             <p class = "text-main"><a href="#">Read More<i class="fa fa-arrow-right ms-2"></i></a></p>
                         </div>
                     </div>
-                    <div class="services-col border-4">
+                    <div class="services-col ">
                         <div>
                             <img src="./img/service-2.jpg" alt="no image found">
                         </div>
-                        <div class = 'flex gap-3 flex-col text-center p-4'>
+                        <div class = 'flex gap-4 flex-col text-center p-4  border-b-2 border-r-2 border-l-2 w-full'>
                             <h4 class = " text-2xl font-[700] ">Furniture Manufacturing</h4>
                             <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                             <p class = "text-main"><a href="#">Read More<i class="fa fa-arrow-right ms-2"></i></a></p>
                         </div>
                     </div>
-                    <div class="services-col border-4">
+                    <div class="services-col ">
                         <div>
                             <img src="./img/service-3.jpg" alt="no image found">
                         </div>
-                        <div class = 'flex gap-3 flex-col text-center p-4'>
+                        <div class = 'flex gap-4 flex-col  border-b-2 border-r-2 border-l-2 w-full text-center p-4'>
                             <h4 class = " text-2xl font-[700] ">Furniture Manufacturing</h4>
                             <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                             <pv class = "text-main"><a href="#">Read More<i class="fa fa-arrow-right ms-2"></i></a></p>
                         </div>
                     </div>
-                    <div class="services-col border-4">
+                    <div class="services-col ">
                         <div>
                             <img src="./img/service-4.jpg" alt="no image found">
                         </div>
-                        <div class = 'flex gap-3 flex-col text-center p-4'>
+                        <div class = 'flex gap-4 flex-col text-center p-4  border-b-2 border-r-2 border-l-2 w-full'>
                             <h4 class = " text-2xl font-[700] ">Furniture Manufacturing</h4>
                             <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                             <p class = "text-main"><a href="#">Read More<i class="fa fa-arrow-right ms-2"></i></a></p>
                         </div>
                     </div>
-                    <div class="services-col border-4">
+                    <div class="services-col">
                         <div>
                             <img src="./img/service-5.jpg" alt="no image found">
                         </div>
-                        <div class = 'flex gap-3 flex-col text-center p-4'>
+                        <div class = 'flex gap-4 flex-col  border-b-2 border-r-2 border-l-2 w-full text-center p-4'>
                             <h4 class = " text-2xl font-[700] ">Furniture Manufacturing</h4>
                             <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                             <p class = "text-main"><a href="#">Read More<i class="fa fa-arrow-right ms-2"></i></a></p>
                         </div>
                     </div>
-                    <div class="services-col border-4">
+                    <div class="services-col ">
                         <div>
                             <img src="./img/service-6.jpg" alt="no image found">
                         </div>
-                        <div class = 'flex gap-3 flex-col text-center p-4'>
+                        <div class = 'flex gap-4 flex-col text-center p-4  border-b-2 border-r-2 border-l-2 w-full'>
                             <h4 class = " text-2xl font-[700] ">Furniture Manufacturing</h4>
                             <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                             <p class = "text-main"><a href="#">Read More<i class="fa fa-arrow-right ms-2"></i></a></p>
@@ -337,9 +337,9 @@
    </section>
    <!-- our services -->
    <!-- why choose us -->
-   <section>
+   <section class = "mt-24">
     <div class="why-choose-us bg-light ">
-        <div class="container mx-auto">
+        <div class="container mx-auto px-4">
             <!-- why choose us row -->
             <div class="why-choose-row grid grid-cols-1 md:grid-cols-2 gap-16">
                 <!-- why choose us col -->
@@ -347,7 +347,7 @@
                     <img src="./img/feature.jpg" alt="no image found">
                 </div>
                 <div class = 'flex flex-col gap-8 justify-center order-1' >
-                    <h2 class = "text-4xl font-[700]">Why Choose Us</h2>
+                    <h2 class = "h-w-title text-6xl font-[700]">Why Choose Us</h2>
                     <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
                     <div>
                         <div class = "grid grid-cols-2 md:grid-cols-2 gap-8">
@@ -400,12 +400,12 @@
 </section>
    <!-- why choose us -->
    <!-- our projects -->
-   <section>
+   <section class = "mt-24">
     <div class="our-projects">
-        <div class="container mx-auto">
-            <h2  class = "text-4xl font-[700] text-center" >Our Projects</h2>
+        <div class="container mx-auto px-4">
+           <span> <h2  class = "text-6xl h-title font-[700] text-center mb-8" >Our Projects</h2></span>
             <div class = "flex flex-col items-center">
-                <div class = "flex gap-8">
+                <div class = "flex gap-8 mb-8">
                     <p>All</p>
                     <p>General Carpentry</p>
                     <p>Custom Carpentry</p>
@@ -414,60 +414,97 @@
             <!-- our projects row-->
             <div class="projects-row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
                 <!-- our projects col-->
-                <div class="projects-col  border-4">
-                    <div>
-                        <img src="./img/portfolio-1.jpg" alt="no image found">
+                <div class="projects-col">
+                    <div class = "relative">
+                        <div>
+                            <img src="./img/portfolio-1.jpg" alt="no image found">
+                        </div>
+                        <div class = "absolute project-overlay  bottom-0   flex  right-0">
+                            <i class="fa fa-link p-3 border hover-transition mr-2 text-white hover:text-black hover:bg-white"></i>
+                            <i class="fa fa-eye p-3 border hover-transition mr-2 text-white hover:text-black hover:bg-white"></i>
+                        </div>
                     </div>
-                    <div class = 'flex gap-3 flex-col text-left p-4'>
+                    <div class = 'flex gap-3 flex-col text-left p-4  border-b-2 border-r-2 border-l-2 w-full'>
                         <h4 class = " text-main ">Custom Carpentry</h4>
                         <p class = "text-2xl  font-[700]">Wooden Furniture Manufacturing And Remodeling</p>
                     </div>
                 </div>
-                <div class="projects-col border-4">
-                    <div>
-                        <img src="./img/portfolio-2.jpg" alt="no image found">
+                <div class="projects-col">
+                    <div class = "relative">
+                        <div>
+                            <img src="./img/portfolio-2.jpg" alt="no image found">
+                        </div>
+                        <div class = "absolute project-overlay  bottom-0   flex  right-0">
+                            <i class="fa fa-link p-3 border hover-transition mr-2 text-white hover:text-black hover:bg-white"></i>
+                            <i class="fa fa-eye p-3 border hover-transition mr-2 text-white hover:text-black hover:bg-white"></i>
+                        </div>
                     </div>
-                    <div class = 'flex gap-3 flex-col text-left p-4'>
+                    <div class = 'flex gap-3 flex-col text-left p-4  border-b-2 border-r-2 border-l-2 w-full'>
                         <h4 class = " text-main ">Custom Carpentry</h4>
                         <p class = "text-2xl  font-[700]">Wooden Furniture Manufacturing And Remodeling</p>
                     </div>
                 </div>
-                <div class="projects-col border-4">
-                    <div>
-                        <img src="./img/portfolio-3.jpg" alt="no image found">
+                <div class="projects-col">
+                    <div class = "relative">
+                        <div>
+                            <img src="./img/portfolio-3.jpg" alt="no image found">
+                        </div>
+                        <div class = "absolute project-overlay  bottom-0   flex  right-0">
+                            <i class="fa fa-link p-3 border hover-transition mr-2 text-white hover:text-black hover:bg-white"></i>
+                            <i class="fa fa-eye p-3 border hover-transition mr-2 text-white hover:text-black hover:bg-white"></i>
+                        </div>
                     </div>
-                    <div class = 'flex gap-3 flex-col text-left p-4'>
-                        <h4 class = " text-main ">General Carpentry</h4>
-                        <p class = "text-2xl  font-[700]">Wooden Furniture Manufacturing And Remodeling</p>
-                    </div>
-                </div>
-                <div class="projects-col border-4">
-                    <div>
-                        <img src="./img/portfolio-4.jpg" alt="no image found">
-                    </div>
-                    <div class = 'flex gap-3 flex-col text-left p-4'>
+                    <div class = 'flex gap-3 flex-col text-left p-4  border-b-2 border-r-2 border-l-2 w-full'>
                         <h4 class = " text-main ">Custom Carpentry</h4>
                         <p class = "text-2xl  font-[700]">Wooden Furniture Manufacturing And Remodeling</p>
                     </div>
                 </div>
-                <div class="projects-col border-4">
-                    <div>
-                        <img src="./img/portfolio-5.jpg" alt="no image found">
+                <div class="projects-col">
+                    <div class = "relative">
+                        <div>
+                            <img src="./img/portfolio-4.jpg" alt="no image found">
+                        </div>
+                        <div class = "absolute project-overlay  bottom-0   flex  right-0">
+                            <i class="fa fa-link p-3 border hover-transition mr-2 text-white hover:text-black hover:bg-white"></i>
+                            <i class="fa fa-eye p-3 border hover-transition mr-2 text-white hover:text-black hover:bg-white"></i>
+                        </div>
                     </div>
-                    <div class = 'flex gap-3 flex-col text-left p-4'>
-                        <h4 class = " text-main ">General Carpentry</h4>
-                        <p class = "text-2xl  font-[700]">Wooden Furniture Manufacturing And Remodeling</p>
-                    </div>
-                </div>
-                <div class="projects-col border-4">
-                    <div>
-                        <img src="./img/portfolio-6.jpg" alt="no image found">
-                    </div>
-                    <div class = 'flex gap-3 flex-col text-left p-4'>
+                    <div class = 'flex gap-3 flex-col text-left p-4  border-b-2 border-r-2 border-l-2 w-full'>
                         <h4 class = " text-main ">Custom Carpentry</h4>
                         <p class = "text-2xl  font-[700]">Wooden Furniture Manufacturing And Remodeling</p>
                     </div>
                 </div>
+                <div class="projects-col">
+                    <div class = "relative">
+                        <div>
+                            <img src="./img/portfolio-5.jpg" alt="no image found">
+                        </div>
+                        <div class = "absolute project-overlay  bottom-0   flex  right-0">
+                            <i class="fa fa-link p-3 border hover-transition mr-2 text-white hover:text-black hover:bg-white"></i>
+                            <i class="fa fa-eye p-3 border hover-transition mr-2 text-white hover:text-black hover:bg-white"></i>
+                        </div>
+                    </div>
+                    <div class = 'flex gap-3 flex-col text-left p-4  border-b-2 border-r-2 border-l-2 w-full'>
+                        <h4 class = " text-main ">Custom Carpentry</h4>
+                        <p class = "text-2xl  font-[700]">Wooden Furniture Manufacturing And Remodeling</p>
+                    </div>
+                </div>
+                <div class="projects-col">
+                    <div class = "relative">
+                        <div>
+                            <img src="./img/portfolio-6.jpg" alt="no image found">
+                        </div>
+                        <div class = "absolute project-overlay  bottom-0   flex  right-0">
+                            <i class="fa fa-link p-3 border hover-transition mr-2 text-white hover:text-black hover:bg-white"></i>
+                            <i class="fa fa-eye p-3 border hover-transition mr-2 text-white hover:text-black hover:bg-white"></i>
+                        </div>
+                    </div>
+                    <div class = 'flex gap-3 flex-col text-left p-4  border-b-2 border-r-2 border-l-2 w-full'>
+                        <h4 class = " text-main ">Custom Carpentry</h4>
+                        <p class = "text-2xl  font-[700]">Wooden Furniture Manufacturing And Remodeling</p>
+                    </div>
+                </div>
+
                 <!-- our services col-->
             </div>
             <!-- our services row-->
@@ -476,21 +513,21 @@
 </section>
    <!-- our projects -->
    <!-- free quote -->
-   <section>
+   <section class = "mt-24">
     <div class="quote-us bg-light ">
-        <div class="container mx-auto">
+        <div class="container mx-auto px-4">
             <div class="quote-row grid grid-cols-1 md:grid-cols-2 gap-16 ">
                 <div>
                     <img src="./img/quote.jpg" alt="no image found">
                 </div>
                 <div class = 'flex flex-col gap-8 justify-center'>
                    <div>
-                    <h2 class = "text-4xl font-[700]">Free Quotes</h2>
+                    <h2 class = "text-6xl h-f-title font-[700]">Free Quotes</h2>
                     <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
                    </div>
                     <div>
                         <form action="#">
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
                                 <div><input class = "w-full p-5 border outline-main" type="text" placeholder="Your Name" required></div>
                                 <div><input class = "w-full p-5 border outline-main" type="email" placeholder="Your Email "required></div>
                                 <div><input class = "w-full p-5 border outline-main" type="number" placeholder="Your Number" required></div>
@@ -516,44 +553,64 @@
    <!-- free quote -->
 
    <!-- Team Members -->
-   <section>
-    <div class="team-members bg-light ">
-        <div class="container mx-auto">
-            <h2  class = "text-4xl font-[700] text-center" >Team Members</h2>
+   <section class = "mt-24">
+    <div class="team-members ">
+        <div class="container mx-auto px-4">
+            <h2  class = "text-6xl h-t-title font-[700] text-center mb-12" >Team Members</h2>
         <!-- team members row -->
-        <div class = "team-members-row grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+        <div class = "team-members-row gap-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
             <!-- team members col -->
             <div class="team-members-col">
-               <div class = "flex flex-col items-center border-4">
-                <img src="./img/team-1.jpg" alt="no image found">
-                <div class = "text-center">
+               <div class = "flex flex-col items-center ">
+                <img src="./img/team-1.jpg"  alt="no image found">
+                <div class = "social-overlay flex flex-col">
+                    <i class = "fa-brands fa-facebook p-3 bg-white text-main"></i>
+                    <i class = "fa-brands fa-twitter p-3 bg-white text-main"></i>
+                    <i class = "fa-brands fa-linkedin p-3 bg-white text-main"></i>
+                </div>
+                <div class = "text-center border-b-2 border-r-2 border-l-2 w-full">
                     <h4 class = "text-xl font-bold pt-5 mb-1">Full Name</h4>
                     <p class = "pb-5">Designation</p>
                 </div>
                </div>
             </div>
             <div class="team-members-col">
-                <div class = "flex flex-col items-center border-4">
+                <div class = "flex flex-col items-center">
                  <img src="./img/team-2.jpg" alt="no image found">
-                 <div class = "text-center">
+                 <div class = "social-overlay flex flex-col">
+                    <i class = "fa-brands fa-facebook p-3 bg-white text-main"></i>
+                    <i class = "fa-brands fa-twitter p-3 bg-white text-main"></i>
+                    <i class = "fa-brands fa-linkedin p-3 bg-white text-main"></i>
+                </div>
+                 <div class = "text-center w-full border-b-2 border-r-2 border-l-2">
                      <h4 class = "text-xl font-bold pt-5 mb-1">Full Name</h4>
                      <p class = "pb-5">Designation</p>
                  </div>
                 </div>
              </div>
              <div class="team-members-col">
-                <div class = "flex flex-col items-center border-4">
+                <div class = "flex flex-col items-center  ">
                  <img src="./img/team-3.jpg" alt="no image found">
-                 <div class = "text-center">
+                 <div class = "social-overlay flex flex-col">
+                    <i class = "fa-brands fa-facebook p-3 bg-white text-main"></i>
+                    <i class = "fa-brands fa-twitter p-3 bg-white text-main"></i>
+                    <i class = "fa-brands fa-linkedin p-3 bg-white text-main"></i>
+                </div>
+                 <div class = "text-center border-b-2 border-r-2 border-l-2 w-full">
                      <h4 class = "text-xl font-bold pt-5 mb-1">Full Name</h4>
                      <p class = "pb-5">Designation</p>
                  </div>
                 </div>
              </div>
              <div class="team-members-col">
-                <div class = "flex flex-col items-center border-4">
+                <div class = "flex flex-col items-center ">
                  <img src="./img/team-4.jpg" alt="no image found">
-                 <div class = "text-center">
+                 <div class = "social-overlay flex flex-col">
+                    <i class = "fa-brands fa-facebook p-3 bg-white text-main"></i>
+                    <i class = "fa-brands fa-twitter p-3 bg-white text-main"></i>
+                    <i class = "fa-brands fa-linkedin p-3 bg-white text-main"></i>
+                </div>
+                 <div class = "text-center border-b-2 border-r-2 border-l-2 w-full">
                      <h4 class = "text-xl font-bold pt-5 mb-1">Full Name</h4>
                      <p class = "pb-5">Designation</p>
                  </div>
@@ -570,11 +627,11 @@
  </main>
  <!-- main section -->
  <!-- footer section -->
- <footer>
-    <div class="footer bg-black">
-        <div class="container mx-auto"> 
+ <footer class = "mt-24">
+    <div class="footer bg-black py-20">
+        <div class="container mx-auto px-4"> 
             <!-- footer row -->
-            <div class="footer-row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            <div class="footer-row grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
                 <!-- footer col -->
                 <div class="footer-col text-light">
                     <ul class = "flex flex-col gap-7">
@@ -584,24 +641,25 @@
                         <li><i class="fa fa-phone-alt me-3"></i>+012 345 67890</li>
                         <li><i class="fa fa-envelope me-3"></i>info@example.com</li>
                         <li>
-                            <a href="#"><i class = 'fab fa-facebook p-3 border'></i></a>
-                            <a href="#"><i class = 'fab fa-whatsapp p-3 border'></i></a>
-                            <a href="#"><i class = 'fab fa-twitter p-3 border'></i></a>
-                            <a href="#"><i class = 'fab fa-telegram p-3 border'></i></a>
+                            <a href="#"><i class = 'fab fa-facebook p-3 border hover-transition hover:bg-white hover:text-main '></i></a>
+                            <a href="#"><i class = 'fab fa-whatsapp p-3 border  hover-transition hover:bg-white hover:text-main '></i></a>
+                            <a href="#"><i class = 'fab fa-twitter p-3 border hover-transition hover:bg-white hover:text-main '></i></a>
+                            <a href="#"><i class = 'fab fa-telegram p-3 border hover-transition hover:bg-white hover:text-main '></i></a>
                         </li>
                      </div>
                    
                     </ul>
+                   
                 </div>
                 <div class="footer-col text-light">
                     <ul class = "flex flex-col gap-7">
                         <h2 class = "text-2xl font-[600]">Services</h2>
                      <div class = "flex flex-col gap-3 ">
-                      <li> <a class = "text-light" href="#">General Carpentary</a></li>
-                      <li> <a class = "text-light" href="#">Furniture Remodeling</a></li>
-                      <li> <a class = "text-light" href="#">Wood FLoor</a></li>
-                      <li> <a class = "text-light" href="#">Wood Furniture </a></li>
-                      <li> <a class = "text-light" href="#">Custom Carpentary Furniture </a></li>
+                      <li> <a class = "text-light hover:text-main hover:tracking-widest hover-transition" href="#">General Carpentary</a></li>
+                      <li> <a class = "text-light hover:text-main hover:tracking-widest hover-transition" href="#">Furniture Remodeling</a></li>
+                      <li> <a class = "text-light hover:text-main hover:tracking-widest hover-transition" href="#">Wood FLoor</a></li>
+                      <li> <a class = "text-light hover:text-main hover:tracking-widest hover-transition" href="#">Wood Furniture </a></li>
+                      <li> <a class = "text-light hover:text-main hover:tracking-widest hover-transition" href="#">Custom Carpentary Furniture </a></li>
                     
                      </div>
                    
@@ -611,11 +669,11 @@
                     <ul class = "flex flex-col gap-7">
                         <h2 class = "text-2xl font-[600]">Quick Links</h2>
                      <div class = "flex flex-col gap-3 ">
-                      <li> <a class = "text-light" href="#">About Us</a></li>
-                      <li> <a class = "text-light" href="#">Contact Us</a></li>
-                      <li> <a class = "text-light" href="#">Our Services</a></li>
-                      <li> <a class = "text-light" href="#">Terms & Conditions </a></li>
-                      <li> <a class = "text-light" href="#">Support</a></li>
+                      <li> <a class = "text-light hover:text-main hover:tracking-widest hover-transition" href="#">About Us</a></li>
+                      <li> <a class = "text-light hover:text-main hover:tracking-widest hover-transition" href="#">Contact Us</a></li>
+                      <li> <a class = "text-light hover:text-main hover:tracking-widest hover-transition" href="#">Our Services</a></li>
+                      <li> <a class = "text-light hover:text-main hover:tracking-widest hover-transition" href="#">Terms & Conditions </a></li>
+                      <li> <a class = "text-light hover:text-main hover:tracking-widest hover-transition" href="#">Support</a></li>
                     
                      </div>
                    
@@ -623,11 +681,14 @@
                 </div>
                 <div class="footer-col text-light">
                     <ul class = "flex flex-col gap-7">
-                        <h2 class = "text-2xl font-[600]">Services</h2>
-                     <div class = "flex flex-col gap-3 ">
+                        <h2 class = "text-2xl font-[600]">Newsletter</h2>
+                       <div class = "flex flex-col gap-3 ">
                         <li><p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p></li>
-                        <li><input type="text" name="" id=""></li>
-                    
+                        <li><div class = "relative">
+                            <input type="email" class = "p-4 w-full text-black outline-none border-none" placeholder="Your Email" >
+                                <button type = "submit" class = "absolute top-0 right-0 bg-main h-full px-6">Sign Up</button>
+                        </div></li>
+                        
                      </div>
                      
                     </ul>
@@ -635,7 +696,9 @@
                 <!-- footer col -->
             </div>
              <!-- footer row -->
+             <hr class = "my-8 w-full bg-white opacity-75">
              <div>
+                
                 <p class = " text-light flex items-center justify-center">&copyRafi,All Right Reserved.</p>
              </div>
         </div>
