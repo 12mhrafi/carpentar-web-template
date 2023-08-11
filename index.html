@@ -11,6 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- googel font -->
+    <!-- Swipper JS Link -->
+    
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Swipper JS Link -->
     <!-- tailwindcss and daisy ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -114,28 +120,57 @@
             </div>
         </div>
         <!-- mobile  -->
-
         <!-- mobile  -->
     <!-- navbar -->
-    <div class = "container mx-auto">
-        <div class = "relative">
-            <img  src="./img/carousel-3.jpg" alt="no image found">
-           <div class = " z-10 absolute top-0 bottom-0 right-0 left-0 flex items-center justify-between">
-                    <button class="text-6xl text-main" onclick="pre()"><i class="fa-solid fa-angle-left"></i></button>
-                    <button class="text-6xl text-main" onclick="next()"><i class="fa-solid fa-angle-right"></i></button>
-           </div>
-          <div class = "z-50 w-[80%] text-center gap-5 m-auto absolute top-0 left-0 bottom-0 right-0 flex flex-col justify-center items-center ">
-            <h4 class = "text-white font-[500]">WELCOME TO WODDY</h4>
-            <h1 class = "text-3xl md:text-4xl lg:text-5xl font-[800] text-white">Best Carpenter & Craftsman Services</h1>
-            <p class = "text-light">Loremtur,iciatis hic autem eius. Blanditiis mollitia fugit ab reprehenderit, quidem corrupti.</p>
-            <div class = "flex gap-4">
-                <button class = "bg-main text-white py-3 px-5">Read More </button>
-                <button class = "bg-white text-black py-3 px-5">Free Quote</button>
+    <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        <div style = "background:url(./img/carousel-1.jpg);" class="swiper-slide w-full h-screen flex justify-center items-center img-slider" >
+            <div class = "z-50">
+               <div class = "w-[80%] text-center m-auto flex flex-col gap-5">
+                <h4 class = "text-white text-lg font-[500]">WELCOME TO WODDY</h4>
+                <h2 class = "text-3xl md:text-5xl lg:text-6xl font-[800] text-white">Best Carpenter & Craftsman Services</h2>
+                <p class = "text-white">Loremtur,iciatis hic autem eius. Blanditiis mollitia fugit ab reprehenderit, quidem corrupti.</p>
+                <div>  <button class = "py-3 px-5 bg-main text-white">Read More</button>
+                <button class = "py-3 px-5  bg-white text-dark">Free Quote</button></div>
+                </div>
+                <div>    
+              </div>
             </div>
-        
-        </div>
-        </div>
-    </div>
+            </div>
+            <div style = "background:url(./img/carousel-2.jpg);" class="swiper-slide w-full h-screen flex justify-center items-center img-slider">
+                <div class = "z-50">
+                    <div class = "w-[80%] text-center m-auto flex flex-col gap-5">
+                        <h4 class = "text-white text-lg font-[500]">WELCOME TO WODDY</h4>
+                    <h2 class = "text-3xl md:text-5xl lg:text-6xl font-[800] text-white">Best Carpenter & Craftsman Services</h2>
+                    <p class = "text-white">Loremtur,iciatis hic autem eius. Blanditiis mollitia fugit ab reprehenderit, quidem corrupti.</p>
+                    <div>  <button class = "py-3 px-5 bg-main text-white">Read More</button>
+                        <button class = "py-3 px-5  bg-white text-dark">Free Quote</button></div>
+                    </div>
+                    <div>          
+                    </div>
+                </div>
+                </div>
+                <div style = "background:url(./img/carousel-3.jpg);" class="swiper-slide w-full h-screen flex justify-center items-center img-slider" >
+                    <div class = "z-50">
+                        <div class = "w-[80%] text-center m-auto flex flex-col gap-5">
+                            <h4 class = "text-white text-lg font-[500]">WELCOME TO WODDY</h4>
+                        <h2 class = "text-4xl md:text-5xl lg:text-6xl font-[800] text-white">Best Carpenter & Craftsman Services</h2>
+                        <p class = "text-white " >Loremtur,iciatis hic autem eius. Blanditiis mollitia fugit ab reprehenderit, quidem corrupti.</p>
+                        <div>  <button class = "py-3 px-5 bg-main text-white">Read More</button>
+                            <button class = "py-3 px-5  bg-white text-dark">Free Quote</button></div>
+                        </div>
+                        <div>               
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="swiper-button-next text-white"></div>
+                    <div class="swiper-button-prev text-white"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+  <!-- Swiper JS -->
    </header>
 
 
@@ -670,6 +705,24 @@
  </footer>
  <!-- footer section -->
 
- <script src = "script.js"></script>
+ <script src = "./js/script.js"></script>
+  <!-- swipper js link  -->
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script>
+     var swiper = new Swiper(".mySwiper", {
+       slidesPerView: 1,
+       spaceBetween: 30,
+       loop: true,
+       pagination: {
+         el: ".swiper-pagination",
+         clickable: true,
+       },
+       navigation: {
+         nextEl: ".swiper-button-next",
+         prevEl: ".swiper-button-prev",
+       },
+     });
+   </script>
+  <!-- swipper js link  -->
 </body>
 </html>

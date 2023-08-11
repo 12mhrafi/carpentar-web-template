@@ -11,39 +11,15 @@ img{
     object-fit: cover;
     height: 300px;
 }
-
 .navb{
     position:sticky;
     right: 0;
     left: 0;
     top:0;
     z-index:400;
-    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 2px rgba(213, 210, 210, 0.6);
     transition:all 500ms ease;
 }
-
-/* slider  */
-.img-slider{
-    height: 100vh;
-    width: 100%;
-    object-fit: cover;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.img-slider::before{
-    content: '';
-    position:absolute;
-    top:0;
-    right:0;
-    left:0;
-    bottom:0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index:10;
-}
-/* slider */
-
-
 .mobile-nav{
     transform:translateX(-15rem);
     transition: all 300ms;
